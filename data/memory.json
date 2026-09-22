@@ -1,0 +1,236 @@
+{
+    "schema_version": 1,
+    "updated_at": "2026-09-22T14:43:44+00:00",
+    "entries": [
+        {
+            "id": "d2561067-9a9d-49f9-9d3f-ec3539ec8941",
+            "category": "fact",
+            "key": "test_user_name",
+            "value": "AssistantX Tester",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "d1191be3-9420-4b12-9a2a-fc35e0118da3",
+            "category": "fact",
+            "key": "test_name",
+            "value": "Maruf",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "1babe226-010d-4285-bd4c-db0341797c79",
+            "category": "fact",
+            "key": "test_language",
+            "value": "Bangla",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "3e8b3f4f-2c18-4fee-9a77-5199b98e3341",
+            "category": "fact",
+            "key": "test_project",
+            "value": "AssistantX",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "4ccdb0a8-4434-4b5c-a075-07aa95344bc3",
+            "category": "fact",
+            "key": "update_test",
+            "value": "second",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "b149d4ee-f14e-49f6-a7d7-e25c12a056f8",
+            "category": "fact",
+            "key": "type_test_str",
+            "value": "AssistantX",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "07b66351-51a5-4df7-a3e0-fb31a70a8af4",
+            "category": "fact",
+            "key": "type_test_int",
+            "value": "42",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "96619850-8401-4d09-af83-795f773d4bd9",
+            "category": "fact",
+            "key": "type_test_float",
+            "value": "3.14159",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "93a07e38-4db6-4a80-a0af-49e780a20974",
+            "category": "fact",
+            "key": "type_test_bool",
+            "value": "False",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "0663d446-7b1b-48c8-9f9e-538dd83429c2",
+            "category": "fact",
+            "key": "type_test_NoneType",
+            "value": "None",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "d26db9b1-988a-4bcc-af1b-fda3217bb156",
+            "category": "fact",
+            "key": "type_test_list",
+            "value": "['Python', 'AI', 'Automation']",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "e2e7f3f7-3058-47ff-ae47-c0a23775ae8a",
+            "category": "fact",
+            "key": "type_test_dict",
+            "value": "{'language': 'Bangla', 'theme': 'dark'}",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "0d0dda47-6e2b-422e-8e7d-889d9a78abe5",
+            "category": "fact",
+            "key": "None",
+            "value": "value",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-18T15:46:55+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "d19614f4-994b-4b6e-ae6a-2d72e472cdc1",
+            "category": "fact",
+            "key": "thread_test_0",
+            "value": "value_0",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "faaaa7d4-4559-4837-917f-a592ee29d99e",
+            "category": "fact",
+            "key": "thread_test_1",
+            "value": "value_1",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "32556228-b8cd-4852-9304-dc5efcdad96e",
+            "category": "fact",
+            "key": "thread_test_2",
+            "value": "value_2",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "aa580334-a92d-4df0-b005-5a0db49f977e",
+            "category": "fact",
+            "key": "thread_test_3",
+            "value": "value_3",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "0a4b2093-6549-4383-9787-a2861522a2b1",
+            "category": "fact",
+            "key": "thread_test_4",
+            "value": "value_4",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "260588c7-bfe4-43aa-b2b5-278f997a62d3",
+            "category": "fact",
+            "key": "thread_test_5",
+            "value": "value_5",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "b2092b96-d14b-48ed-b451-6fc66f952438",
+            "category": "fact",
+            "key": "thread_test_6",
+            "value": "value_6",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "783708d2-b0fa-4445-bf61-cd1e4a4c0937",
+            "category": "fact",
+            "key": "thread_test_7",
+            "value": "value_7",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "a609a95d-1e2d-457b-b1e3-47311f60ef00",
+            "category": "fact",
+            "key": "thread_test_8",
+            "value": "value_8",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        },
+        {
+            "id": "a1df1d26-fef7-4153-b72c-eebb3bcc83e9",
+            "category": "fact",
+            "key": "thread_test_9",
+            "value": "value_9",
+            "created_at": "2026-09-15T07:12:15+00:00",
+            "updated_at": "2026-09-22T14:43:44+00:00",
+            "importance": 1,
+            "source": "conversation"
+        }
+    ]
+}

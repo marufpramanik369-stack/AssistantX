@@ -1,0 +1,10 @@
+ai
+automation
+brain
+config
+core
+dashboard
+database
+plugins
+services
+voice

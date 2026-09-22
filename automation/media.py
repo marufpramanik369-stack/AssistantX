@@ -47,8 +47,7 @@ import threading
 import time
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Any, Dict, List, Optional, Sequence, Tuple
-
+from typing import Any
 
 # ============================================================================
 # LOGGER
@@ -201,13 +200,13 @@ class MediaStatus:
     """Represents the current media controller status."""
 
     state: MediaState = MediaState.UNKNOWN
-    volume: Optional[int] = None
-    muted: Optional[bool] = None
-    active_application: Optional[str] = None
-    available_applications: List[str] = field(default_factory=list)
+    volume: int | None = None
+    muted: bool | None = None
+    active_application: str | None = None
+    available_applications: list[str] = field(default_factory=list)
     timestamp: float = field(default_factory=time.time)
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert status to a dictionary."""
 
         return {
@@ -229,9 +228,9 @@ class CommandResult:
     success: bool
     action: str
     message: str
-    data: Dict[str, Any] = field(default_factory=dict)
+    data: dict[str, Any] = field(default_factory=dict)
 
-    def to_dict(self) -> Dict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         """Convert result to dictionary."""
 
         return {
@@ -246,7 +245,7 @@ class CommandResult:
 # APPLICATION DEFINITIONS
 # ============================================================================
 
-MEDIA_APPLICATIONS: Dict[str, Dict[str, Any]] = {
+MEDIA_APPLICATIONS: dict[str, dict[str, Any]] = {
     "spotify": {
         "process": "Spotify.exe",
         "command": "spotify",
@@ -409,7 +408,7 @@ class ProcessManager:
             )
             return False
 
-    def list_processes(self) -> List[str]:
+    def list_processes(self) -> list[str]:
         """Return currently running Windows processes."""
 
         try:
@@ -423,7 +422,7 @@ class ProcessManager:
 
             lines = result.stdout.splitlines()
 
-            processes: List[str] = []
+            processes: list[str] = []
 
             for line in lines:
                 parts = line.split()
@@ -486,7 +485,7 @@ class MediaApplicationManager:
 
     def __init__(
         self,
-        process_manager: Optional[ProcessManager] = None,
+        process_manager: ProcessManager | None = None,
     ) -> None:
         self.process_manager = (
             process_manager
@@ -507,7 +506,7 @@ class MediaApplicationManager:
     def get_application(
         self,
         name: str,
-    ) -> Optional[Dict[str, Any]]:
+    ) -> dict[str, Any] | None:
         """Return application metadata."""
 
         normalized = self.normalize_name(name)
@@ -543,10 +542,10 @@ class MediaApplicationManager:
             process_name
         )
 
-    def running_applications(self) -> List[str]:
+    def running_applications(self) -> list[str]:
         """Return supported media applications currently running."""
 
-        running: List[str] = []
+        running: list[str] = []
 
         for key, info in MEDIA_APPLICATIONS.items():
             process_name = info.get("process")
@@ -635,7 +634,7 @@ class MediaController:
 
     def __init__(
         self,
-        config: Optional[MediaConfig] = None,
+        config: MediaConfig | None = None,
     ) -> None:
 
         self.config = config or MediaConfig()
@@ -804,7 +803,7 @@ class MediaController:
 
     def volume_up(
         self,
-        steps: Optional[int] = None,
+        steps: int | None = None,
     ) -> bool:
         """Increase system volume."""
 
@@ -830,7 +829,7 @@ class MediaController:
 
     def volume_down(
         self,
-        steps: Optional[int] = None,
+        steps: int | None = None,
     ) -> bool:
         """Decrease system volume."""
 
@@ -951,7 +950,7 @@ class MediaController:
 
     def seek_forward(
         self,
-        seconds: Optional[int] = None,
+        seconds: int | None = None,
     ) -> bool:
         """
         Seek forward.
@@ -984,7 +983,7 @@ class MediaController:
 
     def seek_backward(
         self,
-        seconds: Optional[int] = None,
+        seconds: int | None = None,
     ) -> bool:
         """Seek backward by the requested duration."""
 
@@ -1056,7 +1055,7 @@ class MediaController:
             application
         )
 
-    def running_applications(self) -> List[str]:
+    def running_applications(self) -> list[str]:
         """Return running supported media applications."""
 
         return self._applications.running_applications()
@@ -1429,7 +1428,7 @@ class MediaController:
 
     async def async_volume_up(
         self,
-        steps: Optional[int] = None,
+        steps: int | None = None,
     ) -> bool:
         """Async volume up."""
 
@@ -1440,7 +1439,7 @@ class MediaController:
 
     async def async_volume_down(
         self,
-        steps: Optional[int] = None,
+        steps: int | None = None,
     ) -> bool:
         """Async volume down."""
 
@@ -1494,7 +1493,7 @@ class MediaController:
     # DIAGNOSTICS
     # ------------------------------------------------------------------------
 
-    def diagnostics(self) -> Dict[str, Any]:
+    def diagnostics(self) -> dict[str, Any]:
         """Return diagnostic information."""
 
         return {
@@ -1536,7 +1535,7 @@ class MediaController:
             "MediaController cleanup completed."
         )
 
-    def __enter__(self) -> "MediaController":
+    def __enter__(self) -> MediaController:
         """Context-manager entry."""
 
         return self
@@ -1566,7 +1565,7 @@ class MediaController:
 # SINGLETON
 # ============================================================================
 
-_default_controller: Optional[MediaController] = None
+_default_controller: MediaController | None = None
 _controller_lock = threading.Lock()
 
 
@@ -1628,7 +1627,7 @@ def previous_track() -> bool:
 
 
 def volume_up(
-    steps: Optional[int] = None,
+    steps: int | None = None,
 ) -> bool:
     """Increase volume."""
 
@@ -1638,7 +1637,7 @@ def volume_up(
 
 
 def volume_down(
-    steps: Optional[int] = None,
+    steps: int | None = None,
 ) -> bool:
     """Decrease volume."""
 
@@ -1699,7 +1698,7 @@ def execute_command(
 # COMMAND ALIASES
 # ============================================================================
 
-COMMAND_ALIASES: Dict[str, str] = {
+COMMAND_ALIASES: dict[str, str] = {
     "play music": "play",
     "start music": "play",
     "resume music": "play",
@@ -1864,4 +1863,6 @@ if __name__ == "__main__":
             "Initialization error:",
             exc,
         )
+
+
         

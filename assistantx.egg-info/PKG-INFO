@@ -1,0 +1,319 @@
+Metadata-Version: 2.4
+Name: assistantx
+Version: 1.0.0
+Summary: A modular, extensible and intelligent desktop AI assistant built with Python.
+Home-page: https://github.com/YOUR_USERNAME/AssistantX
+Author: MP.Maruf Khan
+Author-email: 
+License: MIT
+Project-URL: Homepage, https://github.com/YOUR_USERNAME/AssistantX
+Project-URL: Documentation, https://github.com/YOUR_USERNAME/AssistantX/tree/main/docs
+Project-URL: Source, https://github.com/YOUR_USERNAME/AssistantX
+Project-URL: Issues, https://github.com/YOUR_USERNAME/AssistantX/issues
+Project-URL: Changelog, https://github.com/YOUR_USERNAME/AssistantX/blob/main/docs/changelog.md
+Keywords: assistant,ai,artificial-intelligence,desktop-assistant,voice-assistant,automation,gemini,ollama,local-ai,python,productivity
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv<2.0.0,>=1.0.1
+Requires-Dist: google-genai<2.0.0,>=1.0.0
+Requires-Dist: ollama<1.0.0,>=0.4.0
+Requires-Dist: openai<2.0.0,>=1.50.0
+Requires-Dist: numpy<3.0.0,>=1.26.0
+Requires-Dist: scikit-learn<2.0.0,>=1.4.0
+Requires-Dist: requests<3.0.0,>=2.32.0
+Requires-Dist: httpx<1.0.0,>=0.27.0
+Requires-Dist: beautifulsoup4<5.0.0,>=4.12.0
+Requires-Dist: wikipedia<2.0.0,>=1.4.0
+Requires-Dist: SpeechRecognition<4.0.0,>=3.10.0
+Requires-Dist: PyAudio<1.0.0,>=0.2.14
+Requires-Dist: pyttsx3<3.0.0,>=2.90
+Requires-Dist: sounddevice<1.0.0,>=0.5.0
+Requires-Dist: soundfile<1.0.0,>=0.12.0
+Requires-Dist: PyAutoGUI<1.0.0,>=0.9.54
+Requires-Dist: pyperclip<2.0.0,>=1.9.0
+Requires-Dist: Pillow<13.0.0,>=10.4.0
+Requires-Dist: plyer<3.0.0,>=2.1.0
+Requires-Dist: spotipy<3.0.0,>=2.24.0
+Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0
+Requires-Dist: pydantic<3.0.0,>=2.8.0
+Requires-Dist: APScheduler<4.0.0,>=3.10.0
+Requires-Dist: anyio<5.0.0,>=4.4.0
+Requires-Dist: pyinstaller<7.0.0,>=6.10.0
+Requires-Dist: pytest<9.0.0,>=8.3.0
+Requires-Dist: pytest-cov<7.0.0,>=5.0.0
+Requires-Dist: ruff<1.0.0,>=0.6.0
+Requires-Dist: mypy<2.0.0,>=1.11.0
+Requires-Dist: typing-extensions<5.0.0,>=4.12.0
+Provides-Extra: ai
+Requires-Dist: google-genai<2.0.0,>=1.0.0; extra == "ai"
+Requires-Dist: ollama<1.0.0,>=0.4.0; extra == "ai"
+Requires-Dist: openai<2.0.0,>=1.50.0; extra == "ai"
+Requires-Dist: numpy<3.0.0,>=1.26.0; extra == "ai"
+Requires-Dist: scikit-learn<2.0.0,>=1.4.0; extra == "ai"
+Provides-Extra: voice
+Requires-Dist: SpeechRecognition<4.0.0,>=3.10.0; extra == "voice"
+Requires-Dist: PyAudio<1.0.0,>=0.2.14; extra == "voice"
+Requires-Dist: pyttsx3<3.0.0,>=2.90; extra == "voice"
+Requires-Dist: sounddevice<1.0.0,>=0.5.0; extra == "voice"
+Requires-Dist: soundfile<1.0.0,>=0.12.0; extra == "voice"
+Provides-Extra: automation
+Requires-Dist: PyAutoGUI<1.0.0,>=0.9.54; extra == "automation"
+Requires-Dist: pyperclip<2.0.0,>=1.9.0; extra == "automation"
+Requires-Dist: Pillow<13.0.0,>=10.4.0; extra == "automation"
+Requires-Dist: plyer<3.0.0,>=2.1.0; extra == "automation"
+Provides-Extra: services
+Requires-Dist: requests<3.0.0,>=2.32.0; extra == "services"
+Requires-Dist: httpx<1.0.0,>=0.27.0; extra == "services"
+Requires-Dist: beautifulsoup4<5.0.0,>=4.12.0; extra == "services"
+Requires-Dist: wikipedia<2.0.0,>=1.4.0; extra == "services"
+Requires-Dist: spotipy<3.0.0,>=2.24.0; extra == "services"
+Provides-Extra: database
+Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0; extra == "database"
+Requires-Dist: pydantic<3.0.0,>=2.8.0; extra == "database"
+Provides-Extra: development
+Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "development"
+Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "development"
+Requires-Dist: ruff<1.0.0,>=0.6.0; extra == "development"
+Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "development"
+Provides-Extra: build
+Requires-Dist: pyinstaller<7.0.0,>=6.10.0; extra == "build"
+Provides-Extra: all
+Requires-Dist: Pillow<13.0.0,>=10.4.0; extra == "all"
+Requires-Dist: PyAudio<1.0.0,>=0.2.14; extra == "all"
+Requires-Dist: PyAutoGUI<1.0.0,>=0.9.54; extra == "all"
+Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0; extra == "all"
+Requires-Dist: SpeechRecognition<4.0.0,>=3.10.0; extra == "all"
+Requires-Dist: beautifulsoup4<5.0.0,>=4.12.0; extra == "all"
+Requires-Dist: google-genai<2.0.0,>=1.0.0; extra == "all"
+Requires-Dist: httpx<1.0.0,>=0.27.0; extra == "all"
+Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "all"
+Requires-Dist: numpy<3.0.0,>=1.26.0; extra == "all"
+Requires-Dist: ollama<1.0.0,>=0.4.0; extra == "all"
+Requires-Dist: openai<2.0.0,>=1.50.0; extra == "all"
+Requires-Dist: plyer<3.0.0,>=2.1.0; extra == "all"
+Requires-Dist: pydantic<3.0.0,>=2.8.0; extra == "all"
+Requires-Dist: pyinstaller<7.0.0,>=6.10.0; extra == "all"
+Requires-Dist: pyperclip<2.0.0,>=1.9.0; extra == "all"
+Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "all"
+Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "all"
+Requires-Dist: pyttsx3<3.0.0,>=2.90; extra == "all"
+Requires-Dist: requests<3.0.0,>=2.32.0; extra == "all"
+Requires-Dist: ruff<1.0.0,>=0.6.0; extra == "all"
+Requires-Dist: scikit-learn<2.0.0,>=1.4.0; extra == "all"
+Requires-Dist: sounddevice<1.0.0,>=0.5.0; extra == "all"
+Requires-Dist: soundfile<1.0.0,>=0.12.0; extra == "all"
+Requires-Dist: spotipy<3.0.0,>=2.24.0; extra == "all"
+Requires-Dist: wikipedia<2.0.0,>=1.4.0; extra == "all"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# AssistantX
+
+<p align="center">
+  <strong>AssistantX</strong>
+</p>
+
+<p align="center">
+  A modular, extensible and intelligent desktop AI assistant built with Python.
+</p>
+
+<p align="center">
+  <em>AI • Voice • Automation • Memory • Services • Productivity</em>
+</p>
+
+<p align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)](#platform-support)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)](#project-status)
+
+</p>
+
+---
+
+## Overview
+
+**AssistantX** is a modular desktop AI assistant designed to combine conversational AI, voice interaction, desktop automation, memory, web services, and a modern graphical interface into a single application.
+
+The project is designed with a layered architecture so that AI providers, automation modules, services, voice systems, database components, and UI components can evolve independently.
+
+AssistantX can work with cloud AI providers as well as local AI backends, making it possible to run the assistant with minimal or no recurring AI API cost when using supported local models.
+
+---
+
+## Features
+
+### AI & Conversation
+
+- Multiple AI provider support
+- Google Gemini integration
+- Ollama local AI integration
+- Local AI provider architecture
+- Conversation history
+- Context management
+- Prompt engineering
+- Intent classification
+- Decision engine
+- Response generation
+- Configurable AI temperature
+- Configurable model selection
+- Provider fallback architecture
+
+### Voice Assistant
+
+- Speech recognition
+- Text-to-speech
+- Wake-word support
+- Voice command processing
+- Multiple language support
+- Noise filtering architecture
+- Automatic voice responses
+
+### Desktop Automation
+
+AssistantX is designed to interact with the local computer through modular automation components.
+
+Supported automation areas include:
+
+- Application launching
+- Application closing
+- Browser control
+- File operations
+- Folder operations
+- Keyboard automation
+- Mouse automation
+- Clipboard management
+- Screenshots
+- System controls
+- Media controls
+- YouTube integration
+- Desktop notifications
+- Calculator and unit conversion
+
+### Web & External Services
+
+The service layer is designed to support:
+
+- Web search
+- Weather information
+- News
+- Wikipedia
+- Translation
+- Email
+- Reminders
+- Application update checking
+
+External services can be enabled or disabled independently through configuration.
+
+### Memory & Data
+
+AssistantX includes architecture for:
+
+- Conversation history
+- Long-term memory
+- User profile
+- Application settings
+- Scheduled tasks
+- Command storage
+- SQLite database
+- JSON-based local data
+- Runtime cache
+
+### Modern Dashboard
+
+The dashboard architecture supports:
+
+- Dark theme
+- Light theme
+- Animated interface
+- Chat interface
+- Sidebar
+- Message bubbles
+- Typing indicators
+- Splash screen
+- Profile section
+- Settings
+- Dialogs
+- Particle effects
+- UI transitions
+- Custom widgets
+
+### Plugin System
+
+AssistantX includes a plugin architecture intended to support:
+
+- Custom commands
+- Extensions
+- Third-party plugins
+- Modular feature loading
+- Future community extensions
+
+---
+
+# Architecture
+
+AssistantX follows a modular layered architecture.
+
+```text
+                         ┌─────────────────────┐
+                         │       User          │
+                         └──────────┬──────────┘
+                                    │
+                     ┌──────────────▼──────────────┐
+                     │      Dashboard / Voice      │
+                     └──────────────┬──────────────┘
+                                    │
+                     ┌──────────────▼──────────────┐
+                     │        Core Assistant       │
+                     └──────────────┬──────────────┘
+                                    │
+                     ┌──────────────▼──────────────┐
+                     │            Brain            │
+                     │ Intent • Context • Decision │
+                     └──────────────┬──────────────┘
+                                    │
+              ┌─────────────────────┼─────────────────────┐
+              │                     │                     │
+      ┌───────▼────────┐   ┌────────▼────────┐   ┌──────▼───────┐
+      │   AI Providers │   │    Services     │   │ Automation   │
+      └───────┬────────┘   └────────┬────────┘   └──────┬───────┘
+              │                     │                     │
+              └─────────────────────┼─────────────────────┘
+                                    │
+                         ┌──────────▼──────────┐
+                         │ Operating System / │
+                         │ Internet / Database│
+                         └─────────────────────┘
+
+                         

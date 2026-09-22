@@ -162,16 +162,6 @@ AssistantX/
 │   ├── debug.log
 │   └── error.log
 │
-├── tests/
-│   ├── __init__.py
-│   ├── test_ai.py
-│   ├── test_voice.py
-│   ├── test_memory.py
-│   ├── test_dashboard.py
-│   ├── test_services.py
-│   ├── test_automation.py
-│   └── test_database.py
-│
 └── docs/
     ├── architecture.md
     ├── installation.md
@@ -179,25 +169,3 @@ AssistantX/
     ├── roadmap.md
     ├── changelog.md
     └── developer_guide.md
-
-extends -------
-
-            dashboard/
-├── ui/
-│   ├── chat.py
-│   ├── sidebar.py
-│   ├── input_box.py
-│   ├── message_bubble.py
-│   └── typing_indicator.py
-│
-├── effects/
-│   ├── animations.py
-│   ├── chat_animation.py
-│   ├── transitions.py
-│   ├── effects.py
-│   └── particle_engine.py
-│
-└── themes/
-    ├── dark_theme.py
-    ├── light_theme.py
-    └── animation_theme.py

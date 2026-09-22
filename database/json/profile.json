@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "profile": {
+    "id": "default-user",
+    "name": "User",
+    "display_name": "User",
+    "username": "user",
+    "role": "User",
+    "avatar": "",
+    "language": "bn-BD",
+    "timezone": "Asia/Dhaka"
+  },
+  "preferences": {
+    "theme": "dark",
+    "voice_enabled": true,
+    "notifications_enabled": true
+  },
+  "metadata": {
+    "created_at": null,
+    "updated_at": null
+  }
+}

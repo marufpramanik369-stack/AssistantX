@@ -1,0 +1,68 @@
+{
+    "name": "AssistantX Light",
+    "mode": "light",
+
+    "colors": {
+        "background": "#F5F7FA",
+        "surface": "#FFFFFF",
+        "surface_alt": "#EEF2F6",
+
+        "primary": "#2563EB",
+        "primary_hover": "#1D4ED8",
+        "secondary": "#7C3AED",
+
+        "accent": "#0891B2",
+
+        "text": "#111827",
+        "text_secondary": "#4B5563",
+        "text_muted": "#6B7280",
+
+        "border": "#D9E0E7",
+        "divider": "#E5E7EB",
+
+        "success": "#16A34A",
+        "warning": "#D97706",
+        "error": "#DC2626",
+        "info": "#0284C7",
+
+        "user_message": "#DBEAFE",
+        "assistant_message": "#FFFFFF",
+
+        "input_background": "#FFFFFF",
+        "button_background": "#F1F5F9",
+        "button_hover": "#E2E8F0",
+
+        "sidebar": "#F8FAFC",
+        "sidebar_hover": "#EEF2F7",
+        "sidebar_active": "#E2E8F0"
+    },
+
+    "window": {
+        "width": 1200,
+        "height": 760,
+        "min_width": 900,
+        "min_height": 600
+    },
+
+    "border_radius": {
+        "small": 6,
+        "medium": 10,
+        "large": 16,
+        "pill": 999
+    },
+
+    "font": {
+        "family": "Segoe UI",
+        "size": 14,
+        "title_size": 24,
+        "subtitle_size": 16,
+        "small_size": 12
+    },
+
+    "effects": {
+        "animation": true,
+        "smooth_transition": true,
+        "shadow": true,
+        "glass_effect": false
+    }
+}

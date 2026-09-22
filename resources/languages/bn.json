@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "language_code": "bn",
+    "language_name": "বাংলা",
+    "language_name_en": "Bangla",
+    "locale": "bn-BD",
+    "direction": "ltr",
+    "version": "1.0.0",
+    "encoding": "UTF-8"
+  },
+
+  "app": {
+    "name": "AssistantX",
+    "tagline": "আপনার ব্যক্তিগত AI সহকারী",
+    "description": "AssistantX হলো একটি আধুনিক ও বুদ্ধিমান ডেস্কটপ AI সহকারী।"
+  },
+
+  "common": {
+    "ok": "ঠিক আছে",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "cancel": "বাতিল",
+    "close": "বন্ধ করুন",
+    "save": "সংরক্ষণ করুন",
+    "saved": "সংরক্ষণ করা হয়েছে",
+    "delete": "মুছুন",
+    "deleted": "মুছে ফেলা হয়েছে",
+    "edit": "সম্পাদনা করুন",
+    "update": "আপডেট করুন",
+    "refresh": "রিফ্রেশ করুন",
+    "reload": "পুনরায় লোড করুন",
+    "retry": "আবার চেষ্টা করুন",
+    "back": "পেছনে",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী",
+    "confirm": "নিশ্চিত করুন",
+    "search": "খুঁজুন",
+    "clear": "পরিষ্কার করুন",
+    "reset": "রিসেট করুন",
+    "enable": "সক্রিয় করুন",
+    "disable": "নিষ্ক্রিয় করুন",
+    "enabled": "সক্রিয়",
+    "disabled": "নিষ্ক্রিয়",
+    "on": "চালু",
+    "off": "বন্ধ",
+    "loading": "লোড হচ্ছে...",
+    "processing": "প্রক্রিয়াকরণ হচ্ছে...",
+    "ready": "প্রস্তুত",
+    "success": "সফল",
+    "error": "ত্রুটি",
+    "warning": "সতর্কতা",
+    "info": "তথ্য"
+  },
+
+  "navigation": {
+    "home": "হোম",
+    "chat": "চ্যাট",
+    "history": "ইতিহাস",
+    "memory": "মেমোরি",
+    "commands": "কমান্ড",
+    "tasks": "কাজ",
+    "automation": "অটোমেশন",
+    "browser": "ব্রাউজার",
+    "plugins": "প্লাগইন",
+    "settings": "সেটিংস",
+    "profile": "প্রোফাইল",
+    "help": "সহায়তা",
+    "about": "সম্পর্কে"
+  },
+
+  "chat": {
+    "title": "চ্যাট",
+    "new_chat": "নতুন চ্যাট",
+    "chat_history": "চ্যাট ইতিহাস",
+    "message": "মেসেজ",
+    "message_placeholder": "আপনার মেসেজ লিখুন...",
+    "send": "পাঠান",
+    "stop": "থামান",
+    "regenerate": "আবার তৈরি করুন",
+    "copy": "কপি করুন",
+    "copied": "কপি করা হয়েছে",
+    "clear_chat": "চ্যাট পরিষ্কার করুন",
+    "clear_chat_confirm": "আপনি কি এই চ্যাটটি পরিষ্কার করতে চান?",
+    "thinking": "AssistantX চিন্তা করছে...",
+    "typing": "AssistantX লিখছে...",
+    "no_messages": "এখনও কোনো মেসেজ নেই।",
+    "user": "আপনি",
+    "assistant": "AssistantX",
+    "system": "সিস্টেম",
+    "attach_file": "ফাইল সংযুক্ত করুন",
+    "voice_message": "ভয়েস মেসেজ",
+    "empty_message": "খালি মেসেজ পাঠানো যাবে না।"
+  },
+
+  "welcome": {
+    "title": "স্বাগতম!",
+    "subtitle": "আমি কীভাবে আপনাকে সাহায্য করতে পারি?",
+    "greeting_morning": "সুপ্রভাত!",
+    "greeting_afternoon": "শুভ অপরাহ্ন!",
+    "greeting_evening": "শুভ সন্ধ্যা!",
+    "greeting_night": "শুভ রাত্রি!",
+    "quick_actions": "দ্রুত কাজ",
+    "ask_anything": "যেকোনো কিছু জিজ্ঞাসা করুন..."
+  },
+
+  "voice": {
+    "title": "ভয়েস",
+    "input": "ভয়েস ইনপুট",
+    "output": "ভয়েস আউটপুট",
+    "listening": "শুনছি...",
+    "speaking": "বলছি...",
+    "start_listening": "শোনা শুরু করুন",
+    "stop_listening": "শোনা বন্ধ করুন",
+    "voice_enabled": "ভয়েস চালু আছে",
+    "voice_disabled": "ভয়েস বন্ধ আছে",
+    "microphone": "মাইক্রোফোন",
+    "microphone_not_found": "মাইক্রোফোন পাওয়া যায়নি।",
+    "speech_not_recognized": "কথা শনাক্ত করা যায়নি।",
+    "voice_error": "ভয়েস সিস্টেমে সমস্যা হয়েছে।"
+  },
+
+  "search": {
+    "title": "ওয়েব সার্চ",
+    "searching": "ওয়েবে খোঁজা হচ্ছে...",
+    "search_placeholder": "কী খুঁজতে চান?",
+    "results": "সার্চ ফলাফল",
+    "no_results": "কোনো ফলাফল পাওয়া যায়নি।",
+    "open_result": "ফলাফল খুলুন",
+    "web_search_enabled": "ওয়েব সার্চ চালু আছে",
+    "web_search_disabled": "ওয়েব সার্চ বন্ধ আছে"
+  },
+
+  "history": {
+    "title": "চ্যাট ইতিহাস",
+    "today": "আজ",
+    "yesterday": "গতকাল",
+    "older": "পুরোনো",
+    "no_history": "কোনো চ্যাট ইতিহাস নেই।",
+    "delete_history": "ইতিহাস মুছুন",
+    "delete_history_confirm": "আপনি কি সব চ্যাট ইতিহাস মুছে ফেলতে চান?",
+    "history_cleared": "চ্যাট ইতিহাস পরিষ্কার করা হয়েছে।"
+  },
+
+  "memory": {
+    "title": "মেমোরি",
+    "long_term": "দীর্ঘমেয়াদি মেমোরি",
+    "remember": "মনে রাখুন",
+    "forget": "ভুলে যান",
+    "clear_memory": "মেমোরি পরিষ্কার করুন",
+    "clear_memory_confirm": "আপনি কি AssistantX-এর সব মেমোরি মুছে ফেলতে চান?",
+    "memory_saved": "তথ্য মেমোরিতে সংরক্ষণ করা হয়েছে।",
+    "memory_deleted": "তথ্য মেমোরি থেকে মুছে ফেলা হয়েছে।",
+    "no_memory": "কোনো সংরক্ষিত মেমোরি নেই।"
+  },
+
+  "commands": {
+    "title": "কাস্টম কমান্ড",
+    "add": "কমান্ড যোগ করুন",
+    "remove": "কমান্ড মুছুন",
+    "execute": "কমান্ড চালান",
+    "name": "কমান্ডের নাম",
+    "description": "বিবরণ",
+    "alias": "অ্যালিয়াস",
+    "handler": "হ্যান্ডলার",
+    "command_enabled": "কমান্ড সক্রিয়",
+    "command_disabled": "কমান্ড নিষ্ক্রিয়",
+    "command_registered": "কমান্ড নিবন্ধিত হয়েছে।",
+    "command_removed": "কমান্ড মুছে ফেলা হয়েছে।",
+    "command_not_found": "কমান্ড পাওয়া যায়নি।"
+  },
+
+  "tasks": {
+    "title": "কাজ",
+    "add_task": "কাজ যোগ করুন",
+    "edit_task": "কাজ সম্পাদনা করুন",
+    "delete_task": "কাজ মুছুন",
+    "task_title": "কাজের শিরোনাম",
+    "description": "বিবরণ",
+    "priority": "অগ্রাধিকার",
+    "due_date": "শেষ তারিখ",
+    "status": "অবস্থা",
+    "pending": "অপেক্ষমাণ",
+    "in_progress": "চলমান",
+    "completed": "সম্পন্ন",
+    "cancelled": "বাতিল",
+    "overdue": "সময় পার হয়ে গেছে",
+    "no_tasks": "কোনো কাজ নেই।"
+  },
+
+  "automation": {
+    "title": "PC অটোমেশন",
+    "run": "চালান",
+    "stop": "থামান",
+    "restart": "রিস্টার্ট করুন",
+    "shutdown": "শাটডাউন করুন",
+    "lock": "PC লক করুন",
+    "sleep": "স্লিপ করুন",
+    "volume_up": "ভলিউম বাড়ান",
+    "volume_down": "ভলিউম কমান",
+    "mute": "মিউট করুন",
+    "unmute": "আনমিউট করুন",
+    "automation_success": "অটোমেশন সফলভাবে সম্পন্ন হয়েছে।",
+    "automation_failed": "অটোমেশন সম্পন্ন করা যায়নি।",
+    "confirmation_required": "এই কাজটি করার আগে আপনার অনুমতি প্রয়োজন।"
+  },
+
+  "plugins": {
+    "title": "প্লাগইন",
+    "installed": "ইনস্টল করা প্লাগইন",
+    "available": "উপলব্ধ প্লাগইন",
+    "load": "লোড করুন",
+    "unload": "আনলোড করুন",
+    "enable": "সক্রিয় করুন",
+    "disable": "নিষ্ক্রিয় করুন",
+    "plugin_loaded": "প্লাগইন লোড হয়েছে।",
+    "plugin_unloaded": "প্লাগইন আনলোড হয়েছে।",
+    "plugin_enabled": "প্লাগইন সক্রিয় হয়েছে।",
+    "plugin_disabled": "প্লাগইন নিষ্ক্রিয় হয়েছে।",
+    "plugin_error": "প্লাগইনে একটি সমস্যা হয়েছে।",
+    "no_plugins": "কোনো প্লাগইন পাওয়া যায়নি।"
+  },
+
+  "ai": {
+    "title": "AI",
+    "provider": "AI প্রদানকারী",
+    "model": "মডেল",
+    "response": "AI উত্তর",
+    "thinking": "AI চিন্তা করছে...",
+    "provider_unavailable": "AI প্রদানকারী বর্তমানে উপলব্ধ নয়।",
+    "connection_failed": "AI সার্ভারের সাথে সংযোগ করা যায়নি।",
+    "request_failed": "AI অনুরোধ সম্পন্ন করা যায়নি।",
+    "fallback": "বিকল্প AI প্রদানকারী ব্যবহার করা হচ্ছে।"
+  },
+
+  "settings": {
+    "title": "সেটিংস",
+    "general": "সাধারণ",
+    "appearance": "অ্যাপিয়ারেন্স",
+    "language": "ভাষা",
+    "theme": "থিম",
+    "dark": "ডার্ক",
+    "light": "লাইট",
+    "system": "সিস্টেম",
+    "voice": "ভয়েস",
+    "notifications": "নোটিফিকেশন",
+    "startup": "স্টার্টআপ",
+    "web_search": "ওয়েব সার্চ",
+    "auto_save_history": "স্বয়ংক্রিয়ভাবে ইতিহাস সংরক্ষণ",
+    "save_settings": "সেটিংস সংরক্ষণ করুন",
+    "settings_saved": "সেটিংস সংরক্ষণ করা হয়েছে।",
+    "reset_settings": "সেটিংস রিসেট করুন",
+    "reset_confirm": "আপনি কি সব সেটিংস ডিফল্ট অবস্থায় ফিরিয়ে নিতে চান?"
+  },
+
+  "profile": {
+    "title": "প্রোফাইল",
+    "name": "নাম",
+    "email": "ইমেইল",
+    "language": "ভাষা",
+    "edit_profile": "প্রোফাইল সম্পাদনা করুন",
+    "save_profile": "প্রোফাইল সংরক্ষণ করুন",
+    "profile_saved": "প্রোফাইল সংরক্ষণ করা হয়েছে।"
+  },
+
+  "notifications": {
+    "title": "নোটিফিকেশন",
+    "enabled": "নোটিফিকেশন চালু আছে",
+    "disabled": "নোটিফিকেশন বন্ধ আছে",
+    "new_message": "নতুন মেসেজ এসেছে।",
+    "task_reminder": "আপনার একটি কাজের সময় হয়েছে।",
+    "plugin_error": "একটি প্লাগইনে সমস্যা হয়েছে।"
+  },
+
+  "errors": {
+    "unknown": "একটি অজানা সমস্যা হয়েছে।",
+    "invalid_input": "ইনপুটটি সঠিক নয়।",
+    "not_found": "অনুরোধ করা তথ্য পাওয়া যায়নি।",
+    "permission_denied": "অনুমতি দেওয়া হয়নি।",
+    "operation_failed": "কাজটি সম্পন্ন করা যায়নি।",
+    "database_error": "ডেটাবেসে সমস্যা হয়েছে।",
+    "network_error": "নেটওয়ার্কে সমস্যা হয়েছে।",
+    "timeout": "অনুরোধের সময়সীমা শেষ হয়েছে।",
+    "configuration_error": "কনফিগারেশনে সমস্যা হয়েছে।",
+    "plugin_error": "প্লাগইন চালানোর সময় সমস্যা হয়েছে।"
+  },
+
+  "status": {
+    "online": "অনলাইন",
+    "offline": "অফলাইন",
+    "connected": "সংযুক্ত",
+    "disconnected": "সংযোগ বিচ্ছিন্ন",
+    "ready": "প্রস্তুত",
+    "busy": "ব্যস্ত",
+    "starting": "শুরু হচ্ছে...",
+    "stopping": "বন্ধ হচ্ছে...",
+    "updating": "আপডেট হচ্ছে..."
+  },
+
+  "time": {
+    "now": "এখন",
+    "seconds": "সেকেন্ড",
+    "minutes": "মিনিট",
+    "hours": "ঘণ্টা",
+    "days": "দিন",
+    "today": "আজ",
+    "tomorrow": "আগামীকাল",
+    "yesterday": "গতকাল"
+  },
+
+  "about": {
+    "title": "AssistantX সম্পর্কে",
+    "version": "সংস্করণ",
+    "developer": "ডেভেলপার",
+    "license": "লাইসেন্স",
+    "website": "ওয়েবসাইট",
+    "description": "AssistantX একটি মডুলার, স্মার্ট এবং extensible Windows desktop AI assistant।"
+  },
+
+  "accessibility": {
+    "close_window": "উইন্ডো বন্ধ করুন",
+    "open_menu": "মেনু খুলুন",
+    "send_message": "মেসেজ পাঠান",
+    "start_voice": "ভয়েস ইনপুট শুরু করুন",
+    "stop_voice": "ভয়েস ইনপুট বন্ধ করুন"
+  }
+}
+

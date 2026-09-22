@@ -1,0 +1,1254 @@
+[2026-09-15 13:12:14] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-15 13:12:14] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-15 17:21:28] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-15 17:21:28] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-15 19:10:57] [ERROR] [ai.provider] Failed to initialize AI provider 'gemini'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 973, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:10:57] [ERROR] [ai.provider] Failed to initialize AI provider 'ollama'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 994, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:10:57] [ERROR] [ai.provider] Failed to initialize AI provider 'local'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1019, in get_provider
+    return provider_class()
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:10:58] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-15 19:10:58] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] Failed to initialize AI provider 'gemini'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1016, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:21:14] [ERROR] [ai.provider] Failed to initialize AI provider 'ollama'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1037, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:21:14] [ERROR] [ai.provider] Failed to initialize AI provider 'local'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1062, in get_provider
+    return provider_class()
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 19:21:14] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:57] [ERROR] [ai.provider] Failed to initialize AI provider 'gemini'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1033, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:15:57] [ERROR] [ai.provider] Failed to initialize AI provider 'ollama'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1054, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:15:58] [ERROR] [ai.provider] Failed to initialize AI provider 'local'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1079, in get_provider
+    return provider_class()
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:15:58] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:58] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:58] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:58] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:15:58] [ERROR] [ai.provider] [test] API call failed: 'MockAIProvider' object has no attribute '_call_api'
+[2026-09-15 21:42:01] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:42:01] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:42:01] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:42:01] [ERROR] [ai.provider] Failed to initialize AI provider 'gemini'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1012, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:42:01] [ERROR] [ai.provider] Failed to initialize AI provider 'ollama'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1033, in get_provider
+    return provider_class(
+        model=model,
+    )
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:42:01] [ERROR] [ai.provider] Failed to initialize AI provider 'local'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\ai\provider.py", line 1058, in get_provider
+    return provider_class()
+TypeError: 'NonCallableMagicMock' object is not callable
+[2026-09-15 21:49:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:49:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:49:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:56:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:56:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:56:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:58:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:58:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:58:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-15 21:58:43] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-15 21:58:43] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 424, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-16 19:48:47] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:08:20] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:08:31] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:10:09] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:09] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:09] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:11] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 427, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 15:10:11] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 427, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 15:10:12] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:10:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 15:10:32] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 427, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 15:10:32] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 427, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 15:10:33] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:33:52] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:37:11] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 15:40:00] [ERROR] [database.migrations] Rollback failed after migration error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 647, in _apply_migration
+    connection.execute("COMMIT;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+sqlite3.OperationalError: cannot commit - no transaction is active
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 651, in _apply_migration
+    connection.execute("ROLLBACK;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: cannot rollback - no transaction is active
+[2026-09-18 16:46:33] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:46:33] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:46:33] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:37] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:37] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:37] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:38] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 16:47:38] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 16:47:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 16:47:56] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 16:47:56] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 21:32:43] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:32:43] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:32:43] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:32:44] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 21:32:44] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 21:35:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:35:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:35:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:35:59] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:35:59] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:35:59] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:36:29] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:36:29] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:36:29] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 21:36:30] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 21:36:30] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-18 22:43:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 22:43:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 22:43:55] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-18 22:43:56] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-18 22:43:56] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-19 17:29:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:29:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:29:31] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:29:33] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-19 17:29:33] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 421, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-19 17:39:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:36] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:37] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-19 17:39:37] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-19 17:39:52] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:52] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:52] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:39:53] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-19 17:39:53] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-19 17:40:00] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:40:00] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:40:00] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 17:40:01] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-19 17:40:01] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-19 20:16:54] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 20:16:54] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 20:16:54] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-19 20:16:55] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-19 20:16:55] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-20 19:18:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:18:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:18:50] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:18:51] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-20 19:18:51] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-20 19:56:51] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:56:51] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:56:51] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 19:56:52] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-20 19:56:52] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-20 20:43:32] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 20:43:32] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 20:43:32] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 20:43:33] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-20 20:43:33] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-20 21:42:16] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 21:42:16] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 21:42:16] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-20 21:42:17] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-20 21:42:17] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-21 22:05:27] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-21 22:05:27] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-21 22:06:05] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-21 22:06:06] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:46:39] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:46:39] [ERROR] [AssistantX] Unexpected error while importing optional module: services.reminder_service
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\main.py", line 460, in optional_import
+    module = __import__(module_name, fromlist=["*"])
+  File "C:\MY Another type WEBSIte\AssistantX\services\reminder_service.py", line 35, in <module>
+    from database import Task, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\__init__.py", line 17, in <module>
+    from database.db_manager import DatabaseManager, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 1900, in <module>
+    db_manager = DatabaseManager()
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 199, in __init__
+    self.migrate()
+    ~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 388, in migrate
+    return run_migrations(
+        self._db_path,
+        create_backup=create_backup,
+    )
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 708, in run_migrations
+    previous_version = get_current_schema_version(path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 507, in get_current_schema_version
+    connection = create_connection(db_path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 450, in create_connection
+    raise DatabaseConnectionError(
+        f"Unable to open SQLite database: {path}"
+    ) from exc
+database.migrations.DatabaseConnectionError: Unable to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+[2026-09-22 18:46:39] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 18:46:39] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 18:46:42] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:46:42] [ERROR] [AssistantX] Unexpected error while importing optional module: services.reminder_service
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\main.py", line 460, in optional_import
+    module = __import__(module_name, fromlist=["*"])
+  File "C:\MY Another type WEBSIte\AssistantX\services\reminder_service.py", line 35, in <module>
+    from database import Task, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\__init__.py", line 17, in <module>
+    from database.db_manager import DatabaseManager, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 1900, in <module>
+    db_manager = DatabaseManager()
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 199, in __init__
+    self.migrate()
+    ~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 388, in migrate
+    return run_migrations(
+        self._db_path,
+        create_backup=create_backup,
+    )
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 708, in run_migrations
+    previous_version = get_current_schema_version(path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 507, in get_current_schema_version
+    connection = create_connection(db_path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 450, in create_connection
+    raise DatabaseConnectionError(
+        f"Unable to open SQLite database: {path}"
+    ) from exc
+database.migrations.DatabaseConnectionError: Unable to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+[2026-09-22 18:46:42] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 18:46:42] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 18:46:44] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:46:44] [ERROR] [AssistantX] Unexpected error while importing optional module: services.reminder_service
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\main.py", line 460, in optional_import
+    module = __import__(module_name, fromlist=["*"])
+  File "C:\MY Another type WEBSIte\AssistantX\services\reminder_service.py", line 35, in <module>
+    from database import Task, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\__init__.py", line 17, in <module>
+    from database.db_manager import DatabaseManager, db_manager
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 1900, in <module>
+    db_manager = DatabaseManager()
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 199, in __init__
+    self.migrate()
+    ~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\database\db_manager.py", line 388, in migrate
+    return run_migrations(
+        self._db_path,
+        create_backup=create_backup,
+    )
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 708, in run_migrations
+    previous_version = get_current_schema_version(path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 507, in get_current_schema_version
+    connection = create_connection(db_path)
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 450, in create_connection
+    raise DatabaseConnectionError(
+        f"Unable to open SQLite database: {path}"
+    ) from exc
+database.migrations.DatabaseConnectionError: Unable to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+[2026-09-22 18:46:44] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 18:46:44] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 18:48:48] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:50:39] [ERROR] [database.migrations] Failed to open SQLite database: C:\MY Another type WEBSIte\AssistantX\database\assistantx.db
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\database\migrations.py", line 437, in create_connection
+    connection.execute("PRAGMA journal_mode = WAL;")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+[2026-09-22 18:52:15] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 18:52:15] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 18:52:15] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 18:52:16] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-22 18:52:16] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-09-22 20:43:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 20:43:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 20:43:42] [ERROR] [ai.provider] [test] API call failed: Test provider error
+[2026-09-22 20:43:43] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-09-22 20:43:43] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\webbrowser.py", line 111, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser

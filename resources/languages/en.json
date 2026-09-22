@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "language_code": "en",
+    "language_name": "English",
+    "language_name_en": "English",
+    "locale": "en-US",
+    "direction": "ltr",
+    "version": "1.0.0",
+    "encoding": "UTF-8"
+  },
+
+  "app": {
+    "name": "AssistantX",
+    "tagline": "Your Personal AI Assistant",
+    "description": "AssistantX is a modern and intelligent desktop AI assistant."
+  },
+
+  "common": {
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "saved": "Saved",
+    "delete": "Delete",
+    "deleted": "Deleted",
+    "edit": "Edit",
+    "update": "Update",
+    "refresh": "Refresh",
+    "reload": "Reload",
+    "retry": "Retry",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "search": "Search",
+    "clear": "Clear",
+    "reset": "Reset",
+    "enable": "Enable",
+    "disable": "Disable",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "on": "On",
+    "off": "Off",
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "ready": "Ready",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information"
+  },
+
+  "navigation": {
+    "home": "Home",
+    "chat": "Chat",
+    "history": "History",
+    "memory": "Memory",
+    "commands": "Commands",
+    "tasks": "Tasks",
+    "automation": "Automation",
+    "browser": "Browser",
+    "plugins": "Plugins",
+    "settings": "Settings",
+    "profile": "Profile",
+    "help": "Help",
+    "about": "About"
+  },
+
+  "chat": {
+    "title": "Chat",
+    "new_chat": "New Chat",
+    "chat_history": "Chat History",
+    "message": "Message",
+    "message_placeholder": "Type your message...",
+    "send": "Send",
+    "stop": "Stop",
+    "regenerate": "Regenerate",
+    "copy": "Copy",
+    "copied": "Copied",
+    "clear_chat": "Clear Chat",
+    "clear_chat_confirm": "Are you sure you want to clear this chat?",
+    "thinking": "AssistantX is thinking...",
+    "typing": "AssistantX is typing...",
+    "no_messages": "There are no messages yet.",
+    "user": "You",
+    "assistant": "AssistantX",
+    "system": "System",
+    "attach_file": "Attach File",
+    "voice_message": "Voice Message",
+    "empty_message": "An empty message cannot be sent."
+  },
+
+  "welcome": {
+    "title": "Welcome!",
+    "subtitle": "How can I help you?",
+    "greeting_morning": "Good morning!",
+    "greeting_afternoon": "Good afternoon!",
+    "greeting_evening": "Good evening!",
+    "greeting_night": "Good night!",
+    "quick_actions": "Quick Actions",
+    "ask_anything": "Ask me anything..."
+  },
+
+  "voice": {
+    "title": "Voice",
+    "input": "Voice Input",
+    "output": "Voice Output",
+    "listening": "Listening...",
+    "speaking": "Speaking...",
+    "start_listening": "Start Listening",
+    "stop_listening": "Stop Listening",
+    "voice_enabled": "Voice is enabled",
+    "voice_disabled": "Voice is disabled",
+    "microphone": "Microphone",
+    "microphone_not_found": "Microphone not found.",
+    "speech_not_recognized": "Speech could not be recognized.",
+    "voice_error": "A problem occurred with the voice system."
+  },
+
+  "search": {
+    "title": "Web Search",
+    "searching": "Searching the web...",
+    "search_placeholder": "What do you want to search for?",
+    "results": "Search Results",
+    "no_results": "No results found.",
+    "open_result": "Open Result",
+    "web_search_enabled": "Web search is enabled",
+    "web_search_disabled": "Web search is disabled"
+  },
+
+  "history": {
+    "title": "Chat History",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "older": "Older",
+    "no_history": "No chat history available.",
+    "delete_history": "Delete History",
+    "delete_history_confirm": "Are you sure you want to delete all chat history?",
+    "history_cleared": "Chat history has been cleared."
+  },
+
+  "memory": {
+    "title": "Memory",
+    "long_term": "Long-Term Memory",
+    "remember": "Remember",
+    "forget": "Forget",
+    "clear_memory": "Clear Memory",
+    "clear_memory_confirm": "Are you sure you want to delete all AssistantX memories?",
+    "memory_saved": "Information has been saved to memory.",
+    "memory_deleted": "Information has been removed from memory.",
+    "no_memory": "No saved memories available."
+  },
+
+  "commands": {
+    "title": "Custom Commands",
+    "add": "Add Command",
+    "remove": "Remove Command",
+    "execute": "Execute Command",
+    "name": "Command Name",
+    "description": "Description",
+    "alias": "Alias",
+    "handler": "Handler",
+    "command_enabled": "Command Enabled",
+    "command_disabled": "Command Disabled",
+    "command_registered": "Command registered successfully.",
+    "command_removed": "Command removed successfully.",
+    "command_not_found": "Command not found."
+  },
+
+  "tasks": {
+    "title": "Tasks",
+    "add_task": "Add Task",
+    "edit_task": "Edit Task",
+    "delete_task": "Delete Task",
+    "task_title": "Task Title",
+    "description": "Description",
+    "priority": "Priority",
+    "due_date": "Due Date",
+    "status": "Status",
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "overdue": "Overdue",
+    "no_tasks": "No tasks available."
+  },
+
+  "automation": {
+    "title": "PC Automation",
+    "run": "Run",
+    "stop": "Stop",
+    "restart": "Restart",
+    "shutdown": "Shut Down",
+    "lock": "Lock PC",
+    "sleep": "Sleep",
+    "volume_up": "Increase Volume",
+    "volume_down": "Decrease Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "automation_success": "Automation completed successfully.",
+    "automation_failed": "Automation could not be completed.",
+    "confirmation_required": "Your permission is required before performing this action."
+  },
+
+  "plugins": {
+    "title": "Plugins",
+    "installed": "Installed Plugins",
+    "available": "Available Plugins",
+    "load": "Load",
+    "unload": "Unload",
+    "enable": "Enable",
+    "disable": "Disable",
+    "plugin_loaded": "Plugin loaded successfully.",
+    "plugin_unloaded": "Plugin unloaded successfully.",
+    "plugin_enabled": "Plugin enabled successfully.",
+    "plugin_disabled": "Plugin disabled successfully.",
+    "plugin_error": "A problem occurred with the plugin.",
+    "no_plugins": "No plugins found."
+  },
+
+  "ai": {
+    "title": "AI",
+    "provider": "AI Provider",
+    "model": "Model",
+    "response": "AI Response",
+    "thinking": "AI is thinking...",
+    "provider_unavailable": "The AI provider is currently unavailable.",
+    "connection_failed": "Could not connect to the AI server.",
+    "request_failed": "The AI request could not be completed.",
+    "fallback": "Using an alternative AI provider."
+  },
+
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "appearance": "Appearance",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "voice": "Voice",
+    "notifications": "Notifications",
+    "startup": "Startup",
+    "web_search": "Web Search",
+    "auto_save_history": "Automatically Save History",
+    "save_settings": "Save Settings",
+    "settings_saved": "Settings have been saved.",
+    "reset_settings": "Reset Settings",
+    "reset_confirm": "Are you sure you want to restore all settings to their default values?"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "language": "Language",
+    "edit_profile": "Edit Profile",
+    "save_profile": "Save Profile",
+    "profile_saved": "Profile has been saved."
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "enabled": "Notifications are enabled",
+    "disabled": "Notifications are disabled",
+    "new_message": "You have a new message.",
+    "task_reminder": "You have a task reminder.",
+    "plugin_error": "A plugin encountered an error."
+  },
+
+  "errors": {
+    "unknown": "An unknown error occurred.",
+    "invalid_input": "The provided input is invalid.",
+    "not_found": "The requested information could not be found.",
+    "permission_denied": "Permission denied.",
+    "operation_failed": "The operation could not be completed.",
+    "database_error": "A database error occurred.",
+    "network_error": "A network error occurred.",
+    "timeout": "The request timed out.",
+    "configuration_error": "A configuration error occurred.",
+    "plugin_error": "An error occurred while running the plugin."
+  },
+
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "ready": "Ready",
+    "busy": "Busy",
+    "starting": "Starting...",
+    "stopping": "Stopping...",
+    "updating": "Updating..."
+  },
+
+  "time": {
+    "now": "Now",
+    "seconds": "Seconds",
+    "minutes": "Minutes",
+    "hours": "Hours",
+    "days": "Days",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday"
+  },
+
+  "about": {
+    "title": "About AssistantX",
+    "version": "Version",
+    "developer": "Developer",
+    "license": "License",
+    "website": "Website",
+    "description": "AssistantX is a modular, intelligent, and extensible Windows desktop AI assistant."
+  },
+
+  "accessibility": {
+    "close_window": "Close Window",
+    "open_menu": "Open Menu",
+    "send_message": "Send Message",
+    "start_voice": "Start Voice Input",
+    "stop_voice": "Stop Voice Input"
+  }
+}

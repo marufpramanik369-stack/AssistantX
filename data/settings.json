@@ -1,0 +1,52 @@
+{
+    "voice": {
+        "enabled": true,
+        "wake_word": "hey assistant",
+        "wake_word_sensitivity": 0.5,
+        "language": "en-US",
+        "rate": 175,
+        "volume": 1.0,
+        "voice_id": null,
+        "push_to_talk": false,
+        "noise_suppression": true
+    },
+    "ai": {
+        "provider": "gemini",
+        "gemini_model": "gemini-1.5-flash",
+        "ollama_model": "llama3",
+        "temperature": 0.7,
+        "max_history_messages": 50,
+        "stream_responses": true,
+        "system_persona": "default"
+    },
+    "ui": {
+        "theme": "dark",
+        "window_width": 1100,
+        "window_height": 720,
+        "window_maximized": false,
+        "font_scale": 1.0,
+        "show_typing_indicator": true,
+        "animations_enabled": true,
+        "sidebar_collapsed": false,
+        "accent_color": "#4F8CFF"
+    },
+    "privacy": {
+        "store_conversation_history": true,
+        "store_memory": true,
+        "send_analytics": false,
+        "auto_clear_history_days": null
+    },
+    "notifications": {
+        "enabled": true,
+        "sound_enabled": true,
+        "reminder_lead_minutes": 5,
+        "do_not_disturb": false,
+        "do_not_disturb_start": "22:00",
+        "do_not_disturb_end": "07:00"
+    },
+    "startup_on_boot": false,
+    "minimize_to_tray": true,
+    "first_run_completed": false,
+    "schema_version": 1,
+    "last_modified": "2026-09-10T16:03:56.532181+00:00"
+}

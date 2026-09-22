@@ -1,0 +1,287 @@
+# ============================================================
+# AssistantX - Git Ignore Configuration
+# ============================================================
+
+
+# ============================================================
+# 01. ENVIRONMENT & SECRETS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config/local.py
+config/local_*.py
+
+
+# ============================================================
+# 02. PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+
+# ============================================================
+# 03. VIRTUAL ENVIRONMENTS
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ============================================================
+# 04. ASSISTANTX CACHE
+# ============================================================
+
+# Ignore generated cache data
+cache/*
+
+# Keep cache directory structure
+!cache/.gitkeep
+!cache/**/
+!cache/**/.gitkeep
+
+
+# ============================================================
+# 05. RUNTIME TEMPORARY FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.temporary
+*.swp
+*.swo
+*.pid
+*.lock
+*.bak
+*.old
+
+tmp/
+temp/
+runtime/
+sessions/
+
+# Runtime downloads/exports
+downloads/
+exports/
+
+
+# ============================================================
+# 06. GENERATED IMAGES
+# ============================================================
+
+thumbnails/
+processed/
+
+# Cache image formats
+cache/**/*.png
+cache/**/*.jpg
+cache/**/*.jpeg
+cache/**/*.webp
+cache/**/*.gif
+
+
+# ============================================================
+# 07. AI / MODEL CACHE
+# ============================================================
+
+cache/**/*.json
+cache/**/*.json.gz
+cache/**/*.pickle
+cache/**/*.pkl
+cache/**/*.bin
+cache/**/*.dat
+
+cache/**/*.model
+cache/**/*.safetensors
+cache/**/*.onnx
+
+
+# ============================================================
+# 08. SEARCH / NETWORK CACHE
+# ============================================================
+
+cache/**/*.html
+cache/**/*.xml
+
+
+# ============================================================
+# 09. LOGS
+# ============================================================
+
+# Ignore generated log files
+logs/*.log
+logs/*.log.*
+logs/**/*.log
+logs/**/*.log.*
+
+# Keep directory placeholders
+!logs/.gitkeep
+!logs/**/
+!logs/**/.gitkeep
+
+
+# ============================================================
+# 10. DATABASE RUNTIME FILES
+# ============================================================
+
+# SQLite runtime files
+*.db-wal
+*.db-shm
+*.db-journal
+
+# SQLite backup files
+*.sqlite.bak
+*.sqlite.backup
+
+
+# ============================================================
+# 11. BACKUPS
+# ============================================================
+
+backups/
+
+# Keep backup directory structure
+!backups/.gitkeep
+!backups/**/
+!backups/**/.gitkeep
+
+*.backup
+*.bak
+
+
+# ============================================================
+# 12. BUILD / PACKAGING
+# ============================================================
+
+build/
+dist/
+
+# PyInstaller
+*.spec
+*.manifest
+*.exe.manifest
+
+# Python packages
+*.whl
+
+# Windows installers
+*.msi
+
+# Executables generated locally
+*.exe
+
+
+# ============================================================
+# 13. IDE / EDITOR
+# ============================================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+# VS Code local history
+.history/
+
+
+# ============================================================
+# 14. OPERATING SYSTEM FILES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# 15. NODE / FRONTEND (IF USED LATER)
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# 16. DOCUMENTATION / TOOLING TEMP FILES
+# ============================================================
+
+*.log
+*.cache
+
+
+# ============================================================
+# 17. ASSISTANTX GENERATED DATA
+# ============================================================
+
+# Generated runtime JSON data
+data/cache.json
+data/tasks.json
+
+# Optional local history/memory
+# Uncomment if these should remain private:
+# data/history.json
+# data/memory.json
+# data/profile.json
+# data/settings.json
+
+
+# ============================================================
+# 18. LOCAL MODEL FILES
+# ============================================================
+
+# Large local AI models should not normally be committed
+resources/models/*.gguf
+resources/models/*.bin
+resources/models/*.safetensors
+resources/models/*.onnx
+
+
+# ============================================================
+# 19. BACKUP / ARCHIVE FILES
+# ============================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+
+# ============================================================
+# 20. KEEP PROJECT PLACEHOLDERS
+# ============================================================
+
+!cache/**/.gitkeep
+!logs/**/.gitkeep
+!backups/**/.gitkeep
+
+
+

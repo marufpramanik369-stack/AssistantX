@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assistantx://templates/memory",
+  "title": "AssistantX Memory",
+  "description": "Persistent memory record structure.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "memory_key",
+    "memory_value"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "memory_key": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "memory_value": {
+      "type": [
+        "string",
+        "object",
+        "array",
+        "number",
+        "boolean",
+        "null"
+      ]
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "user",
+        "conversation",
+        "system",
+        "import",
+        "unknown"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}
