@@ -40,6 +40,8 @@ from enum import Enum
 from threading import RLock
 from typing import Any
 
+from dashboard.window import MainWindow
+
 # ============================================================================
 # Logging
 # ============================================================================
@@ -262,6 +264,7 @@ class DashboardApplication:
                 )
 
             self._stats.startup_attempts += 1
+            self._shutdown_requested = False
             self._state = ApplicationState.STARTING
 
         logger.info("Starting AssistantX dashboard...")
@@ -432,7 +435,7 @@ class DashboardApplication:
     # Window
     # ========================================================================
 
-    def _create_window(self) -> None:
+    def create_window(self) -> None:
         """
         Create the main application window.
 
@@ -458,15 +461,20 @@ class DashboardApplication:
         # ---------------------------------------------------------------
 
         try:
-            from dashboard.window import Window
+            from dashboard.window import MainWindow
 
-            self._window = Window()
+            self._window = MainWindow()
 
         except ImportError as exc:
 
             raise DashboardStartupError(
                 "dashboard.window.Window could not be imported."
             ) from exc
+
+    def _create_window(self) -> None:
+        """Create the main window during the startup sequence."""
+
+        self.create_window()
 
     def _call_window_factory(
         self,
@@ -717,6 +725,7 @@ class DashboardApplication:
                 return
 
             self._stats.shutdown_attempts += 1
+            self._shutdown_requested = True
             self._state = ApplicationState.STOPPING
 
         logger.info(

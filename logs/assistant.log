@@ -4500,3 +4500,667 @@ OSError: Unable to launch browser
 [2026-09-22 20:43:49] [INFO] [automation.system] System action executed: shutdown
 [2026-09-22 20:43:49] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
 [2026-09-22 20:43:49] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+2026-09-22 21:00:01 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:00:01 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 21:00:01 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:00:01 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 21:00:01 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 21:00:01 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 21:00:01] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 21:00:01] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 21:00:01] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 21:00:01] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 21:00:01] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 21:00:01] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 21:00:01] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 21:00:01] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 21:00:01] [INFO] [AssistantX] AssistantX startup completed in 0.301 seconds.
+[2026-09-22 21:00:01] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 21:00:01] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 21:00:01] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 21:00:01] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 21:00:01] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 21:00:01] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:00:01] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:00:01] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:00:01] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 21:00:01] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 21:00:01] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 21:00:01] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 21:00:01] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 21:00:01] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 21:00:01] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import Window
+ImportError: cannot import name 'Window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py). Did you mean: 'window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 21:00:01] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 21:00:01] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 21:00:01] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 21:00:01] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 21:00:01] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 21:00:01] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 21:00:01] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 21:00:01] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 21:05:58 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:05:58 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 21:05:58 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:05:58 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 21:05:58 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 21:05:58 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 21:05:58] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 21:05:58] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 21:05:58] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 21:05:58] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 21:05:58] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 21:05:58] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 21:05:58] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 21:05:58] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 21:05:58] [INFO] [AssistantX] AssistantX startup completed in 0.275 seconds.
+[2026-09-22 21:05:58] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 21:05:58] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 21:05:58] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 21:05:58] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 21:05:58] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 21:05:58] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:05:58] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:05:58] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:05:58] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 21:05:58] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 21:05:58] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 21:05:58] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 21:05:58] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 21:05:58] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import window
+ImportError: cannot import name 'window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 21:05:58] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 461, in _create_window
+    from dashboard.window import window
+ImportError: cannot import name 'window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 467, in _create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 21:05:58] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 21:05:58] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 21:05:58] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 21:05:58] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 21:05:58] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 21:05:58] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 21:05:58] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 21:05:58] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 21:09:25 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:09:25 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 21:09:25 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:09:26 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 21:09:26 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 21:09:26 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 21:09:26] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 21:09:26] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 21:09:26] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 21:09:26] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 21:09:26] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 21:09:26] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 21:09:26] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 21:09:26] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 21:09:26] [INFO] [AssistantX] AssistantX startup completed in 0.272 seconds.
+[2026-09-22 21:09:26] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 21:09:26] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 21:09:26] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 21:09:26] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 21:09:26] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 21:09:26] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:09:26] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:09:26] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:09:26] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 21:09:26] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 21:09:26] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 21:09:26] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 21:09:26] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 21:09:26] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DashboardApplication' object has no attribute '_create_window'. Did you mean: 'create_window'?
+[2026-09-22 21:09:26] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 293, in start
+    self._create_window()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DashboardApplication' object has no attribute '_create_window'. Did you mean: 'create_window'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 650, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 325, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: 'DashboardApplication' object has no attribute '_create_window'
+[2026-09-22 21:09:26] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 21:09:26] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 21:09:26] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 21:09:26] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 21:09:26] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 21:09:26] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 21:09:26] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 21:09:26] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 21:15:04 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:15:04 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 21:15:04 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:15:04 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 21:15:04 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 21:15:04 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 21:15:04] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 21:15:04] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 21:15:04] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 21:15:04] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 21:15:04] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 21:15:04] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 21:15:05] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 21:15:05] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 21:15:05] [INFO] [AssistantX] AssistantX startup completed in 0.290 seconds.
+[2026-09-22 21:15:05] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 21:15:05] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 21:15:05] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 21:15:05] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 21:15:05] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 21:15:05] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:15:05] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:15:05] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:15:05] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 21:15:05] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 21:15:05] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 21:15:05] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 21:15:05] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 21:15:05] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import window
+ImportError: cannot import name 'window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 21:15:05] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import window
+ImportError: cannot import name 'window' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 656, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 326, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 21:15:05] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 21:15:05] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 21:15:05] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 21:15:05] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 21:15:05] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 21:15:05] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 21:15:05] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 21:15:05] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 21:29:04 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:29:04 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 21:29:04 | INFO     | AssistantX | ========================================================================
+2026-09-22 21:29:04 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 21:29:04 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 21:29:04 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 21:29:04] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 21:29:04] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 21:29:04] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 21:29:04] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 21:29:04] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 21:29:04] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 21:29:04] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 21:29:04] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 21:29:04] [INFO] [AssistantX] AssistantX startup completed in 0.300 seconds.
+[2026-09-22 21:29:04] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 21:29:04] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 21:29:04] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 21:29:04] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 21:29:04] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 21:29:04] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:29:04] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:29:04] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 21:29:04] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 21:29:04] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 21:29:04] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 21:29:04] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 21:29:04] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 21:29:04] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 21:29:04] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 656, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 326, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 21:29:04] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 21:29:04] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 21:29:04] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 21:29:04] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 21:29:04] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 21:29:04] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 21:29:04] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 21:29:04] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 22:27:56 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:27:56 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 22:27:56 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:27:56 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 22:27:56 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 22:27:56 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 22:27:56] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 22:27:56] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 22:27:56] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 22:27:56] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 22:27:56] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 22:27:56] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 22:27:57] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 22:27:57] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 22:27:57] [INFO] [AssistantX] AssistantX startup completed in 0.281 seconds.
+[2026-09-22 22:27:57] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 22:27:57] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 22:27:57] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 22:27:57] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 22:27:57] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 22:27:57] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:27:57] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:27:57] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:27:57] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 22:27:57] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 22:27:57] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 22:27:57] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 22:27:57] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 22:27:57] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 22:27:57] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 656, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 326, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 22:27:57] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 22:27:57] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 22:27:57] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 22:27:57] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 22:27:57] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 22:27:57] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 22:27:57] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 22:27:57] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 22:28:20 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:28:20 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 22:28:20 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:28:20 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 22:28:20 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 22:28:20 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 22:28:20] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 22:28:20] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 22:28:20] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 22:28:20] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 22:28:20] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 22:28:20] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 22:28:20] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 22:28:20] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 22:28:20] [INFO] [AssistantX] AssistantX startup completed in 0.264 seconds.
+[2026-09-22 22:28:20] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 22:28:20] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 22:28:20] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 22:28:20] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 22:28:20] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 22:28:20] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:20] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:20] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:20] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 22:28:20] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 22:28:20] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 22:28:20] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 22:28:20] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 22:28:20] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 22:28:20] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 656, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 326, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 22:28:20] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 22:28:20] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 22:28:20] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 22:28:20] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 22:28:20] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 22:28:20] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 22:28:20] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 22:28:20] [INFO] [AssistantX] AssistantX shutdown complete.
+2026-09-22 22:28:36 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:28:36 | INFO     | AssistantX | AssistantX 1.0.0 starting...
+2026-09-22 22:28:36 | INFO     | AssistantX | ========================================================================
+2026-09-22 22:28:36 | INFO     | config.settings | Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+2026-09-22 22:28:36 | INFO     | config.theme | AssistantX themes reloaded.
+2026-09-22 22:28:36 | INFO     | AssistantX | Environment check passed.
+[2026-09-22 22:28:36] [INFO] [AssistantX] Logging initialized (level=INFO, console=True, files=True).
+[2026-09-22 22:28:36] [INFO] [core.history] Loaded 0 historical message(s) from C:\MY Another type WEBSIte\AssistantX\data\history.json.
+[2026-09-22 22:28:36] [INFO] [core.memory] Loaded 23 memory entr(y/ies) from C:\MY Another type WEBSIte\AssistantX\data\memory.json.
+[2026-09-22 22:28:36] [INFO] [AssistantX] Cache manager loaded.
+[2026-09-22 22:28:36] [INFO] [core.assistant] Assistant initialized. AI provider=None, classifier=None
+[2026-09-22 22:28:36] [INFO] [AssistantX] Assistant core initialized.
+[2026-09-22 22:28:36] [INFO] [AssistantX] Optional services loaded: 6
+[2026-09-22 22:28:36] [INFO] [AssistantX] Dashboard created using create_app().
+[2026-09-22 22:28:36] [INFO] [AssistantX] AssistantX startup completed in 0.260 seconds.
+[2026-09-22 22:28:36] [INFO] [AssistantX] Starting AssistantX dashboard.
+[2026-09-22 22:28:36] [INFO] [dashboard.app] Starting AssistantX dashboard...
+[2026-09-22 22:28:36] [INFO] [config.config] Bootstrapping AssistantX v1.0.0 configuration...
+[2026-09-22 22:28:36] [INFO] [config.env_loader] No .env file found at C:\MY Another type WEBSIte\AssistantX\.env. Using OS environment and defaults.
+[2026-09-22 22:28:36] [INFO] [config.secrets] AssistantX secrets reloaded from environment.
+[2026-09-22 22:28:36] [WARNING] [config.secrets] Credential 'gemini_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:36] [WARNING] [config.secrets] Credential 'openweather_api_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:36] [WARNING] [config.secrets] Credential 'newsapi_key' is not configured. Related AssistantX features may be unavailable or use fallback providers.
+[2026-09-22 22:28:36] [INFO] [config.settings] Settings loaded from C:\MY Another type WEBSIte\AssistantX\data\settings.json.
+[2026-09-22 22:28:36] [INFO] [config.theme] AssistantX themes reloaded.
+[2026-09-22 22:28:36] [INFO] [config.config] Configuration bootstrap complete. Provider=gemini Theme=dark
+[2026-09-22 22:28:36] [INFO] [dashboard.app] AssistantX core configuration initialized.
+[2026-09-22 22:28:36] [WARNING] [dashboard.app] Dashboard theme manager unavailable.
+[2026-09-22 22:28:36] [ERROR] [dashboard.app] Failed to start AssistantX dashboard.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+[2026-09-22 22:28:36] [ERROR] [dashboard.app] Unhandled dashboard runtime error.
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 462, in create_window
+    from dashboard.window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'dashboard.window' (C:\MY Another type WEBSIte\AssistantX\dashboard\window.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 294, in start
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 475, in _create_window
+    self.create_window()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 468, in create_window
+    raise DashboardStartupError(
+        "dashboard.window.Window could not be imported."
+    ) from exc
+dashboard.app.DashboardStartupError: dashboard.window.Window could not be imported.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 656, in run
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\MY Another type WEBSIte\AssistantX\dashboard\app.py", line 326, in start
+    raise DashboardStartupError(
+        f"Dashboard startup failed: {exc}"
+    ) from exc
+dashboard.app.DashboardStartupError: Dashboard startup failed: dashboard.window.Window could not be imported.
+[2026-09-22 22:28:36] [INFO] [dashboard.app] Shutting down AssistantX dashboard...
+[2026-09-22 22:28:36] [WARNING] [voice.recognizer] SpeechRecognition is not installed. Voice input is unavailable. Install with: pip install SpeechRecognition
+[2026-09-22 22:28:36] [WARNING] [voice.speaker] pyttsx3 is not installed. Offline TTS is unavailable. Install it with: pip install pyttsx3
+[2026-09-22 22:28:36] [INFO] [voice.wake_word] Wake-word detector stopped.
+[2026-09-22 22:28:36] [INFO] [voice.speaker] TTS subsystem shut down.
+[2026-09-22 22:28:36] [INFO] [voice.recognizer] Speech recognizer shut down.
+[2026-09-22 22:28:36] [INFO] [dashboard.app] AssistantX dashboard shutdown complete.
+[2026-09-22 22:28:36] [INFO] [AssistantX] AssistantX shutdown complete.

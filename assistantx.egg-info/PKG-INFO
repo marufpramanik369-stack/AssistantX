@@ -5,13 +5,36 @@ Summary: A modular, extensible and intelligent desktop AI assistant built with P
 Home-page: https://github.com/YOUR_USERNAME/AssistantX
 Author: MP.Maruf Khan
 Author-email: 
-License: MIT
+License: MIT License
+        
+        Copyright (c) 2026 AssistantX
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+        
+        
 Project-URL: Homepage, https://github.com/YOUR_USERNAME/AssistantX
 Project-URL: Documentation, https://github.com/YOUR_USERNAME/AssistantX/tree/main/docs
-Project-URL: Source, https://github.com/YOUR_USERNAME/AssistantX
+Project-URL: Repository, https://github.com/YOUR_USERNAME/AssistantX
 Project-URL: Issues, https://github.com/YOUR_USERNAME/AssistantX/issues
 Project-URL: Changelog, https://github.com/YOUR_USERNAME/AssistantX/blob/main/docs/changelog.md
-Keywords: assistant,ai,artificial-intelligence,desktop-assistant,voice-assistant,automation,gemini,ollama,local-ai,python,productivity
+Keywords: assistant,ai,artificial-intelligence,desktop-assistant,voice-assistant,automation,gemini,ollama,local-ai,productivity,python
 Classifier: Development Status :: 3 - Alpha
 Classifier: Environment :: Win32 (MS Windows)
 Classifier: Intended Audience :: End Users/Desktop
@@ -57,12 +80,6 @@ Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0
 Requires-Dist: pydantic<3.0.0,>=2.8.0
 Requires-Dist: APScheduler<4.0.0,>=3.10.0
 Requires-Dist: anyio<5.0.0,>=4.4.0
-Requires-Dist: pyinstaller<7.0.0,>=6.10.0
-Requires-Dist: pytest<9.0.0,>=8.3.0
-Requires-Dist: pytest-cov<7.0.0,>=5.0.0
-Requires-Dist: ruff<1.0.0,>=0.6.0
-Requires-Dist: mypy<2.0.0,>=1.11.0
-Requires-Dist: typing-extensions<5.0.0,>=4.12.0
 Provides-Extra: ai
 Requires-Dist: google-genai<2.0.0,>=1.0.0; extra == "ai"
 Requires-Dist: ollama<1.0.0,>=0.4.0; extra == "ai"
@@ -89,53 +106,22 @@ Requires-Dist: spotipy<3.0.0,>=2.24.0; extra == "services"
 Provides-Extra: database
 Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0; extra == "database"
 Requires-Dist: pydantic<3.0.0,>=2.8.0; extra == "database"
-Provides-Extra: development
-Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "development"
-Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "development"
-Requires-Dist: ruff<1.0.0,>=0.6.0; extra == "development"
-Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "development"
+Provides-Extra: dev
+Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "dev"
+Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "dev"
+Requires-Dist: ruff<1.0.0,>=0.6.0; extra == "dev"
+Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "dev"
 Provides-Extra: build
 Requires-Dist: pyinstaller<7.0.0,>=6.10.0; extra == "build"
 Provides-Extra: all
-Requires-Dist: Pillow<13.0.0,>=10.4.0; extra == "all"
-Requires-Dist: PyAudio<1.0.0,>=0.2.14; extra == "all"
-Requires-Dist: PyAutoGUI<1.0.0,>=0.9.54; extra == "all"
-Requires-Dist: SQLAlchemy<3.0.0,>=2.0.0; extra == "all"
-Requires-Dist: SpeechRecognition<4.0.0,>=3.10.0; extra == "all"
-Requires-Dist: beautifulsoup4<5.0.0,>=4.12.0; extra == "all"
-Requires-Dist: google-genai<2.0.0,>=1.0.0; extra == "all"
-Requires-Dist: httpx<1.0.0,>=0.27.0; extra == "all"
-Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "all"
-Requires-Dist: numpy<3.0.0,>=1.26.0; extra == "all"
-Requires-Dist: ollama<1.0.0,>=0.4.0; extra == "all"
-Requires-Dist: openai<2.0.0,>=1.50.0; extra == "all"
-Requires-Dist: plyer<3.0.0,>=2.1.0; extra == "all"
-Requires-Dist: pydantic<3.0.0,>=2.8.0; extra == "all"
-Requires-Dist: pyinstaller<7.0.0,>=6.10.0; extra == "all"
-Requires-Dist: pyperclip<2.0.0,>=1.9.0; extra == "all"
-Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "all"
 Requires-Dist: pytest<9.0.0,>=8.3.0; extra == "all"
-Requires-Dist: pyttsx3<3.0.0,>=2.90; extra == "all"
-Requires-Dist: requests<3.0.0,>=2.32.0; extra == "all"
+Requires-Dist: pytest-cov<7.0.0,>=5.0.0; extra == "all"
 Requires-Dist: ruff<1.0.0,>=0.6.0; extra == "all"
-Requires-Dist: scikit-learn<2.0.0,>=1.4.0; extra == "all"
-Requires-Dist: sounddevice<1.0.0,>=0.5.0; extra == "all"
-Requires-Dist: soundfile<1.0.0,>=0.12.0; extra == "all"
-Requires-Dist: spotipy<3.0.0,>=2.24.0; extra == "all"
-Requires-Dist: wikipedia<2.0.0,>=1.4.0; extra == "all"
-Dynamic: author
-Dynamic: classifier
-Dynamic: description
-Dynamic: description-content-type
+Requires-Dist: mypy<2.0.0,>=1.11.0; extra == "all"
+Requires-Dist: pyinstaller<7.0.0,>=6.10.0; extra == "all"
 Dynamic: home-page
-Dynamic: keywords
-Dynamic: license
 Dynamic: license-file
-Dynamic: project-url
-Dynamic: provides-extra
-Dynamic: requires-dist
 Dynamic: requires-python
-Dynamic: summary
 
 # AssistantX
 
