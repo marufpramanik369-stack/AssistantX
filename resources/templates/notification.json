@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assistantx://templates/notification",
+  "title": "AssistantX Notification",
+  "description": "Standard notification structure for desktop notifications.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "message",
+    "level"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "info",
+        "success",
+        "warning",
+        "error"
+      ]
+    },
+    "timeout_seconds": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 300
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sound": {
+      "type": "boolean"
+    },
+    "persistent": {
+      "type": "boolean"
+    },
+    "action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}
