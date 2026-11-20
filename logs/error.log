@@ -1,0 +1,138 @@
+[2026-11-16 15:38:59] [ERROR] [ai.gemini] Gemini API call failed after 4.32 seconds: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-11-16 22:47:22] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 22:47:26] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-16 22:47:29] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-16 22:47:32] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-16 22:47:33] [ERROR] [ai.provider] Invalid provider name: Unknown AI provider: 'unsupported-provider'. Supported providers: gemini, ollama, local
+[2026-11-16 22:47:34] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-11-16 22:47:34] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-11-16 22:48:51] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 22:48:52] [ERROR] [ai.provider] Invalid provider name: Unknown AI provider: 'unsupported-provider'. Supported providers: gemini, ollama, local
+[2026-11-16 22:49:14] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 22:51:00] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 22:51:01] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-11-16 22:51:01] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-11-16 22:51:25] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 22:51:40] [ERROR] [voice.speaker_old] Failed to initialize pyttsx3 (COMError): (-2147200967, None, (None, None, None, 0, None))
+[2026-11-16 23:21:08] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-11-16 23:21:08] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-11-17 00:18:05] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-17 00:18:08] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-17 00:18:11] [ERROR] [ai.provider] [test] Generation failed after 3 attempts (3.00s): Test provider error
+[2026-11-17 00:18:11] [ERROR] [ai.provider] Invalid provider name: Unknown AI provider: 'unsupported-provider'. Supported providers: gemini, ollama, local
+[2026-11-17 00:18:11] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+RuntimeError: Browser backend failed
+[2026-11-17 00:18:11] [ERROR] [automation.browser] Unexpected browser error while opening 'https://example.com'.
+Traceback (most recent call last):
+  File "C:\AssistantX\automation\browser.py", line 418, in open_url
+    success = webbrowser.open_new_tab(normalized)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\webbrowser.py", line 112, in open_new_tab
+    return open(url, 2)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py", line 1234, in _execute_mock_call
+    raise effect
+OSError: Unable to launch browser
+[2026-11-17 22:32:56] [ERROR] [ai.provider] [gemini] Generation failed after 1 attempts (0.00s): Last message to Gemini must be from user, got 'model'.
+[2026-11-17 22:33:23] [ERROR] [ai.provider] [auto] Generation failed after 1 attempts (27.89s): gemini: Last message to Gemini must be from user, got 'model'. | ollama: empty response

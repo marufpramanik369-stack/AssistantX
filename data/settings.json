@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "app_name": "AssistantX",
+  "app_version": "1.0.0",
+  "voice": {
+    "enabled": true,
+    "wake_word": "jerox",
+    "wake_word_sensitivity": 0.5,
+    "language": "bn",
+    "rate": 170,
+    "volume": 1.0,
+    "voice_id": null,
+    "voice_gender": "female",
+    "voice_gender_locked": true,
+    "push_to_talk": false,
+    "noise_suppression": true
+  },
+  "ai": {
+    "provider": "ollama",
+    "gemini_model": "gemini-3.5-flash-lite",
+    "ollama_model": "llama3",
+    "temperature": 0.7,
+    "max_history_messages": 20,
+    "stream_responses": true,
+    "system_persona": "You are JEROX, the intelligent personal assistant inside AssistantX. Be helpful, concise, accurate, and natural."
+  },
+  "ui": {
+    "theme": "dark",
+    "width": 1100,
+    "height": 720,
+    "maximized": false,
+    "font_scale": 1.0,
+    "typing_indicator": true,
+    "animations": true,
+    "sidebar": true,
+    "accent": "#6C63FF"
+  },
+  "privacy": {
+    "save_history": true,
+    "save_memory": true,
+    "telemetry_enabled": false,
+    "analytics_enabled": false,
+    "store_voice_audio": false
+  },
+  "notifications": {
+    "enabled": true,
+    "sound": true,
+    "task_completion": true,
+    "errors": true,
+    "reminders": true
+  },
+  "last_modified": "2026-11-20T12:27:43.396703+00:00"
+}

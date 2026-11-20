@@ -1,0 +1,2 @@
+[console_scripts]
+assistantx = main:main

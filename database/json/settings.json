@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "profile": {
+    "id": "default-user",
+    "name": "User",
+    "display_name": "User",
+    "username": "user",
+    "role": "User",
+    "avatar": "",
+    "language": "en",
+    "timezone": "Asia/Dhaka"
+  },
+  "preferences": {
+    "theme": "dark",
+    "voice": {
+      "enabled": true,
+      "input_enabled": true,
+      "output_enabled": true
+    },
+    "history": {
+      "auto_save": true
+    },
+    "web": {
+      "search_enabled": true
+    },
+    "notifications": {
+      "enabled": true
+    },
+    "startup": {
+      "enabled": true
+    }
+  },
+  "metadata": {
+    "created_at": null,
+    "updated_at": null
+  }
+}
